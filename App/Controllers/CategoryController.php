@@ -12,6 +12,10 @@ class CategoryController
     public function about()
     {
         return view('index','Home',$models);
+        
+    }
+    public static function show()
+    {
+        return "created";
     }
 }
-?>
